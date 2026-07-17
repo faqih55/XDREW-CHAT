@@ -1,4 +1,4 @@
-# XDREW-CHAT (XDREWiOS)
+# XDREW-CHAT IOS 17+
 
 A modern, real-time iOS communication application built with Swift and SwiftUI. XDREW-CHAT provides a comprehensive suite of features for seamless messaging and audio/video calling.
 
