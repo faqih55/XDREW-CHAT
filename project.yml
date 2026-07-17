@@ -18,6 +18,8 @@ targets:
       - package: AgoraRtcEngine_iOS
         product: RtcBasic
       - package: Firebase
+        product: FirebaseCore
+      - package: Firebase
         product: FirebaseFirestore
       - package: Firebase
         product: FirebaseFirestoreSwift

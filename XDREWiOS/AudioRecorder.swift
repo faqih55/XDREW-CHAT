@@ -1,6 +1,7 @@
 import Foundation
 import AVFoundation
 
+#if os(iOS)
 class AudioRecorder: NSObject, ObservableObject, AVAudioRecorderDelegate {
     var audioRecorder: AVAudioRecorder?
     @Published var isRecording = false
@@ -51,3 +52,4 @@ class AudioRecorder: NSObject, ObservableObject, AVAudioRecorderDelegate {
         }
     }
 }
+#endif

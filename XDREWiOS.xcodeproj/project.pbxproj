@@ -13,7 +13,7 @@
 		1F3AEA47AC8D9678911B77C9 /* LocationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402ACEB579F6CB386003E761 /* LocationPickerView.swift */; };
 		2655AAB53BDE06B5E3D629A4 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270BB5093B8FAEE6E22FF1E /* AuthManager.swift */; };
 		27625D4B0C151FFEA5FF3511 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05BB532BC744586D5A9088DF /* GoogleService-Info.plist */; };
-		2FBEBEE967003951C793484A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9177FF3C7E86622154086037 /* FirebaseFirestore */; };
+		2FBEBEE967003951C793484A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FA6ECF0FFB2CEBDAB82059D0 /* FirebaseCore */; };
 		46E44ADDD8788A56D5B3A41C /* VoiceSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B4358E7842FFFA9E2D044F /* VoiceSpaceView.swift */; };
 		51BB2BDA7548B3AB23C9149C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CFE2E2049782E8739EADC8 /* CameraView.swift */; };
 		55D9F6B066EEABD5A4194D15 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D194A0CD786BBF665FF8EBB /* MainCoordinator.swift */; };
@@ -23,13 +23,14 @@
 		8268CC69A357796257DB861F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF38609593FC74D6D84BD72 /* SettingsView.swift */; };
 		951D88DD50F5435CE05365FC /* TypingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DB19521F592CBB3B8B5E0 /* TypingIndicatorView.swift */; };
 		A24B3328248528ABA14CD81C /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A94441C79ABFE43D698083 /* FirebaseManager.swift */; };
-		BF9259FFC615D7ADED542E1A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8663760E06798ACEC3E69A67 /* FirebaseAuth */; };
+		AF7F4AEAF33338B7DCE21505 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8E7B21ABA2E85AAAD299F533 /* FirebaseStorage */; };
+		BF9259FFC615D7ADED542E1A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9D69219C3C4BB5BDF108506 /* FirebaseFirestoreSwift */; };
 		CAC1FE14026DC4FFBB4E309D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C3BEFCD38A2F39CB87180 /* LoginView.swift */; };
-		D600045CBC00F2A44DE33F14 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8E7B21ABA2E85AAAD299F533 /* FirebaseStorage */; };
+		D600045CBC00F2A44DE33F14 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8663760E06798ACEC3E69A67 /* FirebaseAuth */; };
 		DB741AF55BB479D833E2143C /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = F41DDFA6C7D06889675B272F /* RtcBasic */; };
 		E8E5910190C0E2E8C44D4789 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EC4575DC5C1A68CD945D2E /* AudioRecorder.swift */; };
 		F04C65B13AA25A341CB72E72 /* ChatEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901DF1A574942A549FA7C65E /* ChatEngineView.swift */; };
-		F189C904FE7F5A6195B8E11E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9D69219C3C4BB5BDF108506 /* FirebaseFirestoreSwift */; };
+		F189C904FE7F5A6195B8E11E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9177FF3C7E86622154086037 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +53,7 @@
 		E4262C366249A4F02FB752F6 /* XDREWiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDREWiOSApp.swift; sourceTree = "<group>"; };
 		ECF38609593FC74D6D84BD72 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F8E1AB0C04E074D97FF385CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		FBDE29185B7271E65926A686 /* XDREW Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XDREW Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDE29185B7271E65926A686 /* XDREWiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = XDREWiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +62,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB741AF55BB479D833E2143C /* RtcBasic in Frameworks */,
-				2FBEBEE967003951C793484A /* FirebaseFirestore in Frameworks */,
-				F189C904FE7F5A6195B8E11E /* FirebaseFirestoreSwift in Frameworks */,
-				BF9259FFC615D7ADED542E1A /* FirebaseAuth in Frameworks */,
-				D600045CBC00F2A44DE33F14 /* FirebaseStorage in Frameworks */,
+				2FBEBEE967003951C793484A /* FirebaseCore in Frameworks */,
+				F189C904FE7F5A6195B8E11E /* FirebaseFirestore in Frameworks */,
+				BF9259FFC615D7ADED542E1A /* FirebaseFirestoreSwift in Frameworks */,
+				D600045CBC00F2A44DE33F14 /* FirebaseAuth in Frameworks */,
+				AF7F4AEAF33338B7DCE21505 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +102,7 @@
 		D11DA876066F5B67EDE4C1FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBDE29185B7271E65926A686 /* XDREW Chat.app */,
+				FBDE29185B7271E65926A686 /* XDREWiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,13 +133,14 @@
 			name = XDREWiOS;
 			packageProductDependencies = (
 				F41DDFA6C7D06889675B272F /* RtcBasic */,
+				FA6ECF0FFB2CEBDAB82059D0 /* FirebaseCore */,
 				9177FF3C7E86622154086037 /* FirebaseFirestore */,
 				E9D69219C3C4BB5BDF108506 /* FirebaseFirestoreSwift */,
 				8663760E06798ACEC3E69A67 /* FirebaseAuth */,
 				8E7B21ABA2E85AAAD299F533 /* FirebaseStorage */,
 			);
 			productName = XDREWiOS;
-			productReference = FBDE29185B7271E65926A686 /* XDREW Chat.app */;
+			productReference = FBDE29185B7271E65926A686 /* XDREWiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,6 +153,7 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					0D6CF3BB5110D3C83E771C82 = {
+						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -222,7 +226,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M9FNNJZQ2V;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XDREWiOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "XDREW Chat";
@@ -237,7 +241,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xdrew.XDREWChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdrew.XDREWiOS;
 				PRODUCT_NAME = "XDREW Chat";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -250,7 +254,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M9FNNJZQ2V;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XDREWiOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "XDREW Chat";
@@ -265,7 +269,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xdrew.XDREWChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdrew.XDREWiOS;
 				PRODUCT_NAME = "XDREW Chat";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,6 +460,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5E7146C89353A0EAF6BD180A /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
 			productName = RtcBasic;
+		};
+		FA6ECF0FFB2CEBDAB82059D0 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C68C2A2D855C689513C3163 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

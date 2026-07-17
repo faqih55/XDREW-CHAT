@@ -1,6 +1,7 @@
 import SwiftUI
 import MapKit
 
+#if os(iOS)
 struct LocationPickerView: View {
     @Environment(\.presentationMode) var presentationMode
     let onLocationSelected: (Double, Double) -> Void
@@ -47,3 +48,4 @@ struct LocationPickerView: View {
         }
     }
 }
+#endif
