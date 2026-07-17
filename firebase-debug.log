@@ -1,0 +1,48 @@
+[debug] [2026-07-16T06:31:22.407Z] ----------------------------------------------------------------------
+[debug] [2026-07-16T06:31:22.410Z] Command:       /Users/faqihmuhamad/Library/Application Support/Herd/config/nvm/versions/node/v22.23.1/bin/node /Users/faqihmuhamad/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase apps:create IOS XDREW Chat --bundle-id com.xdrew.XDREWiOS --project xdrew-chat
+[debug] [2026-07-16T06:31:22.411Z] CLI Version:   15.24.0
+[debug] [2026-07-16T06:31:22.411Z] Platform:      darwin
+[debug] [2026-07-16T06:31:22.411Z] Node Version:  v22.23.1
+[debug] [2026-07-16T06:31:22.412Z] Detected Agent: antigravity
+[debug] [2026-07-16T06:31:22.412Z] Time:          Thu Jul 16 2026 13:31:22 GMT+0700 (Western Indonesia Time)
+[debug] [2026-07-16T06:31:22.412Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-16T06:31:22.434Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-16T06:31:22.434Z] > authorizing via signed-in user (faqihmuhamad553@gmail.com)
+[info] Create your IOS app in project xdrew-chat:
+[debug] [2026-07-16T06:31:22.452Z] Checked if tokens are valid: true, expires at: 1784187018892
+[debug] [2026-07-16T06:31:22.452Z] Checked if tokens are valid: true, expires at: 1784187018892
+[debug] [2026-07-16T06:31:22.454Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/xdrew-chat/iosApps [none]
+[debug] [2026-07-16T06:31:22.454Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/xdrew-chat/iosApps {"displayName":"XDREW Chat","bundleId":"com.xdrew.XDREWiOS"}
+[debug] [2026-07-16T06:31:23.134Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/xdrew-chat/iosApps 404
+[debug] [2026-07-16T06:31:23.134Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/xdrew-chat/iosApps {"error":{"code":404,"message":"Failed to find project","status":"NOT_FOUND"}}
+[debug] [2026-07-16T06:31:23.135Z] Request to https://firebase.googleapis.com/v1beta1/projects/xdrew-chat/iosApps had HTTP Error: 404, Failed to find project
+[debug] [2026-07-16T06:31:23.272Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/xdrew-chat/iosApps had HTTP Error: 404, Failed to find project
+    at responseToError (/Users/faqihmuhamad/.npm/_npx/ba4f1959e38407b5/node_modules/firebase-tools/lib/responseToError.js:53:12)
+    at RetryOperation._fn (/Users/faqihmuhamad/.npm/_npx/ba4f1959e38407b5/node_modules/firebase-tools/lib/apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to create iOS app for project xdrew-chat. See firebase-debug.log for more info.
+[debug] [2026-07-16T06:31:54.306Z] ----------------------------------------------------------------------
+[debug] [2026-07-16T06:31:54.310Z] Command:       /Users/faqihmuhamad/Library/Application Support/Herd/config/nvm/versions/node/v22.23.1/bin/node /Users/faqihmuhamad/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase apps:sdkconfig IOS 1:376702873937:ios:de2b73c2d187c128ece370 --project xdrew-chat
+[debug] [2026-07-16T06:31:54.310Z] CLI Version:   15.24.0
+[debug] [2026-07-16T06:31:54.311Z] Platform:      darwin
+[debug] [2026-07-16T06:31:54.311Z] Node Version:  v22.23.1
+[debug] [2026-07-16T06:31:54.311Z] Detected Agent: antigravity
+[debug] [2026-07-16T06:31:54.311Z] Time:          Thu Jul 16 2026 13:31:54 GMT+0700 (Western Indonesia Time)
+[debug] [2026-07-16T06:31:54.311Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-16T06:31:54.334Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-16T06:31:54.334Z] > authorizing via signed-in user (faqihmuhamad553@gmail.com)
+[debug] [2026-07-16T06:31:54.350Z] Checked if tokens are valid: true, expires at: 1784187018892
+[debug] [2026-07-16T06:31:54.350Z] Checked if tokens are valid: true, expires at: 1784187018892
+[debug] [2026-07-16T06:31:54.352Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/iosApps/1:376702873937:ios:de2b73c2d187c128ece370/config [none]
+[debug] [2026-07-16T06:31:56.158Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/iosApps/1:376702873937:ios:de2b73c2d187c128ece370/config 403
+[debug] [2026-07-16T06:31:56.159Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/iosApps/1:376702873937:ios:de2b73c2d187c128ece370/config {"error":{"code":403,"message":"com.google.api.tenant.error.TenantManagerException: Project '376702873937' not found or permission denied.","status":"PERMISSION_DENIED"}}
+[debug] [2026-07-16T06:31:56.160Z] Request to https://firebase.googleapis.com/v1beta1/projects/-/iosApps/1:376702873937:ios:de2b73c2d187c128ece370/config had HTTP Error: 403, com.google.api.tenant.error.TenantManagerException: Project '376702873937' not found or permission denied.
+[debug] [2026-07-16T06:31:56.534Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/-/iosApps/1:376702873937:ios:de2b73c2d187c128ece370/config had HTTP Error: 403, com.google.api.tenant.error.TenantManagerException: Project '376702873937' not found or permission denied.
+    at responseToError (/Users/faqihmuhamad/.npm/_npx/ba4f1959e38407b5/node_modules/firebase-tools/lib/responseToError.js:53:12)
+    at RetryOperation._fn (/Users/faqihmuhamad/.npm/_npx/ba4f1959e38407b5/node_modules/firebase-tools/lib/apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to get IOS app configuration. See firebase-debug.log for more info.

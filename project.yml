@@ -1,0 +1,43 @@
+name: XDREWiOS
+options:
+  bundleIdPrefix: com.xdrew
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    from: 10.20.0
+  AgoraRtcEngine_iOS:
+    url: https://github.com/AgoraIO/AgoraRtcEngine_iOS
+    from: 4.6.2
+targets:
+  XDREWiOS:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: [XDREWiOS]
+    dependencies:
+      - package: AgoraRtcEngine_iOS
+        product: RtcBasic
+      - package: Firebase
+        product: FirebaseFirestore
+      - package: Firebase
+        product: FirebaseFirestoreSwift
+      - package: Firebase
+        product: FirebaseAuth
+
+      - package: Firebase
+        product: FirebaseStorage
+    settings:
+      base:
+        PRODUCT_NAME: XDREW Chat
+        PRODUCT_BUNDLE_IDENTIFIER: com.xdrew.XDREWiOS
+        INFOPLIST_KEY_CFBundleDisplayName: XDREW Chat
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_LSRequiresIPhoneOS: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
