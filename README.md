@@ -3,7 +3,7 @@
 [![FAQIH55 Header](https://raw.githubusercontent.com/faqih55/faqih55/main/header.svg?v=2)](https://github.com/faqih55)
 
 <a href="https://github.com/faqih55">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=3000&pause=800&color=00FFFF&center=true&vCenter=true&width=750&lines=%E2%97%88+Hello%2C+World!+I+am+faqih55+%E2%97%88;%F0%9F%8D%8E+Building+iOS+apps+with+SwiftUI;%E2%9A%A1+Fullstack+Developer+%7C+Laravel+%2B+PHP;%F0%9F%92%99+Cross-Platform+with+Flutter+%26+Dart;%F0%9F%8C%90+Web+Craftsman+%7C+HTML+%2B+CSS+%2B+JS;%F0%9F%9A%80+Turning+ideas+into+digital+reality;%E2%9C%A8+Welcome+to+my+digital+universe" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=3000&pause=800&color=00FFFF&center=true&vCenter=true&width=750&lines=%E2%97%88+Hello%2C+World!+I+am+faqih55+%E2%97%88;%F0%9F%8D%8E+Building+iOS+apps+with+SwiftUI;%E2%9A%A1+Junior+Fullstack+Developer+%7C+Laravel+%2B+PHP;%F0%9F%92%99+Cross-Platform+with+Flutter+%26+Dart;%F0%9F%8C%90+Web+Craftsman+%7C+HTML+%2B+CSS+%2B+JS;%F0%9F%9A%80+Turning+ideas+into+digital+reality;%E2%9C%A8+Welcome+to+my+digital+universe" alt="Typing SVG" />
 </a>
 
 <br/>
